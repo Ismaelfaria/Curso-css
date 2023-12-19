@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+#a1{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    padding: 5px;
+    margin-left: 180px;
+    cursor: no-drop;
+}
+#a1:hover{
+    display: none;
+}
+.wt{
+    background-color: aqua;
+    width: 50px;
+    height:50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    
+    border-radius: 60px;
+}
