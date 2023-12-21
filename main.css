@@ -1,68 +1,44 @@
-*{
-    max-width: 800px;
+ul{
+    background-color: black;
+    list-style-type: none;
+    overflow: hidden;
+}
+li{
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+li a, .dropBtn{
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-align: center; 
+    text-decoration: none;
+}
+li a:hover, .dropDown:hover, .dropBtn{
+    background-color: red;
+   
+}
+li.dropDown{
+    display: inline-block;
 }
 
-#logo{
-    padding: 5px;
-   background-color: aqua;
-   display: inline-block;
-   position: relative;
-   border: 3px solid black;
-   border-radius: 10px;
-   
-  
-}
-#img{
-    width: 50px;
-    padding: 3px;
-    border-radius: 10px;
-    margin-top: 3px;
-    margin-left: 3px;
-}
-.container{
-    background-color: black;
-    position: static;
-    max-width:800px;
-    height: 65px;
-}
-.menu{
-    display: inline-block;
-    margin-left: 800px;
-    max-width: 800px;
-}
-.opc-menu1{
-    background-color: aqua;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 10px;
+.dropDown-content{
+    display: none;
     position: absolute;
-    top: 12px;
-    left: 75px;
-    border-radius: 15px;
+    background-color: white;
+    width: 150px;
 }
-.opc-menu2{
-    background-color: aqua;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 10px;
-    position: absolute;
-    top: 12px;
-    left: 150px;
-    border-radius: 15px;
+.dropDown-content a{
+    color: black;
+    display: block;
+    text-align: left;
+    border: 1px solid gray;
 }
-.opc-menu3{
-    background-color: aqua;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    padding: 10px;
-    position: static;
-    top: 12px;
-    right: 10px;
-    border-radius: 15px;
-    
+
+.dropDown:hover .dropDown-content{
+    display: block;
 }
-#fixo{
-    position: fixed;
-   max-width: 800px;
-    
+.dropDown-content a:hover{
+    color: white;
 }
