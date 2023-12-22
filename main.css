@@ -1,45 +1,22 @@
-ul{
+.container{
     background-color: black;
-    padding: 20px;
-    
+    padding: 10px;
 }
 li{
     display: inline-block;
-   
-    
 }
 li a{
-    color: white;
     text-decoration: none;
+    color: white;
     padding: 20px;
+    margin-left: 10px;
 }
 li a:hover{
     background-color: gray;
-    color: black;
 }
-.r{
-    float: right;
+.a1{
+ float: right;
 }
-.r a:hover {
-    background-color: orange;
-    color: white;
+.a1 a:hover{
+    background-color: red;
 }
-
-
-
-
-
-.Adidas{
-    border: 2px solid rgb(255, 255, 255);
-}
-.Adidas img{
-    float: left;
-    height: 100px;
-    width: 100px;
-}
-p{
-    padding: 5px;
-    text-align: center;
-    margin-top: 20px;
-}
-
