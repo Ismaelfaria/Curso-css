@@ -1,6 +1,22 @@
-.over{
-    background-color: aquamarine;
-    padding: 10px;
-    height: 159px;
-    overflow: hidden;
+.Adidas{
+    border: 2px solid rgb(255, 255, 255);
+}
+.Adidas img{
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+p{
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Adidas-r{
+    border: 2px solid rgb(255, 255, 255);
+}
+.Adidas-r img{
+    float: right;
+    width: 100px;
+    height: 100px;
 }
