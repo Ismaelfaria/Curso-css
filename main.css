@@ -1,24 +1,48 @@
-.img1{
-    opacity: 0.2;
+ul{
+    background-color: black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
-.img1:hover{
-    opacity: 1;
+li{
+    float: left;
 }
-.img2:hover{
-    opacity: 0.5;
-}
-.img3:hover{
-    opacity: 0.9;
+li a{
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
 }
 
-a.btn{
-    color: aqua;
-    text-decoration: none;
-    background-color: black;
-    padding: 10px;
+li a:hover, .dropDown:hover .dropBtn{
+    background-color: red;
 }
-a.btn:hover{
-    opacity: 0.8;
-    background-color: gray;
+
+li.dropDown{
+    display: inline-block;
+    float: right;
+}
+
+.dropDown-content{
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    display: none;
+}
+
+.dropDown-content a{
     color: black;
+    display: block;
+    text-align: left;
+    border: 1px solid rgb(150, 145, 145);
+}
+
+.dropDown:hover .dropDown-content{
+    display: block;
+}
+
+.dropDown-content a:hover{
+    color: white;
 }
