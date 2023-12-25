@@ -1,27 +1,24 @@
-.cont{
+.container{
     background-color: black;
-    padding: 10px;
+    padding: 1px;
 }
 li{
     display: inline-block;
 }
 li a{
+    padding: 15px;
     color: white;
     text-decoration: none;
-    padding: 9px;
 }
 li a:hover{
+    
     background-color: gray;
-}
-.li-log {
-    float: right;
-    border-bottom: 3px solid beige;
-}
-
-.li-log a{
     
 }
-
+.li-log{
+    float: right;
+    margin-right: 10px;
+}
 
 .li-log a:hover{
     background-color: red;
