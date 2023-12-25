@@ -1,25 +1,24 @@
-.container{
-    background-color: black;
-    padding: 1px;
+.img1{
+    opacity: 0.2;
 }
-li{
-    display: inline-block;
+.img1:hover{
+    opacity: 1;
 }
-li a{
-    padding: 15px;
-    color: white;
-    text-decoration: none;
+.img2:hover{
+    opacity: 0.5;
 }
-li a:hover{
-    
-    background-color: gray;
-    
-}
-.li-log{
-    float: right;
-    margin-right: 10px;
+.img3:hover{
+    opacity: 0.9;
 }
 
-.li-log a:hover{
-    background-color: red;
+a.btn{
+    color: aqua;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+}
+a.btn:hover{
+    opacity: 0.8;
+    background-color: gray;
+    color: black;
 }
