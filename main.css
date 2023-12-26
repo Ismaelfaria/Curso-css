@@ -1,5 +1,5 @@
 ul{
-    background-color: black;
+    background-color: royalblue;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -10,39 +10,10 @@ li{
 }
 li a{
     display: inline-block;
-    color: white;
-    padding: 14px 16px;
     text-decoration: none;
-    text-align: center;
+    padding: 16px 14px;
+    color: aliceblue;
 }
-
-li a:hover, .dropDown:hover .dropBtn{
-    background-color: red;
-}
-
-li.dropDown{
-    display: inline-block;
-    float: right;
-}
-
-.dropDown-content{
-    position: absolute;
-    background-color: white;
-    width: 100px;
-    display: none;
-}
-
-.dropDown-content a{
-    color: black;
-    display: block;
-    text-align: left;
-    border: 1px solid rgb(150, 145, 145);
-}
-
-.dropDown:hover .dropDown-content{
-    display: block;
-}
-
-.dropDown-content a:hover{
-    color: white;
+li a:hover{
+    background-color: gray;
 }
