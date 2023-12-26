@@ -1,5 +1,5 @@
 ul{
-    background-color: royalblue;
+    background-color: brown;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -12,8 +12,22 @@ li a{
     display: inline-block;
     text-decoration: none;
     padding: 16px 14px;
-    color: aliceblue;
+    color: white;
 }
-li a:hover{
-    background-color: gray;
+li a:hover, .dropDown:hover .dropDown-btn{
+    background-color: white;
+    color: brown;
+}
+.dropDown-container{
+    position: absolute;
+    display: none;
+}
+.dropDown-container a{
+    display: block;
+    background-color:brown;
+    color: white;
+    width: 100px;
+}
+.dropDown:hover .dropDown-container{
+    display: block;
 }
